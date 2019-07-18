@@ -1,5 +1,5 @@
 # urna-Eletronica-app
-<Title>Urna Eletrônica Brasileira</title>
+#Urna Eletrônica Brasileira \n
 Esse app é um simulador da Urna Eletrônica usada nas eleições brasileiras, com opções de criar seus proprios candidatos, escolher numeros, partidos etc...
 
 Outra hora escrevo algo melhor aqui hehehehe
