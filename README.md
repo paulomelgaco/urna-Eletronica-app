@@ -16,8 +16,6 @@ Some Functions (implemented or not)
 
 Legal & Copyright
 ----------------
-Copyright 2019 - Paulo Melgaço
-
 This project uses some images from famous polititians because they are public personalities.
 It's not intended to disrespect or misuse any information.
 
@@ -30,3 +28,6 @@ If the project is found anywhere without this README file, it's illegal.
 This app is not endorsed or allowed by any political parties, brands, corporations or institutions (public or private).
 
 This app is just a project for study.
+
+Copyright 2019 - Paulo Melgaço
+--------
