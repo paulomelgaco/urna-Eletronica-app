@@ -1,0 +1,69 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/numOne"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/box_number"/>
+
+        <TextView
+            android:id="@+id/numTwo"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/box_number"
+            app:layout_constraintStart_toEndOf="@id/numOne"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/numThree"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/box_number"
+            app:layout_constraintStart_toEndOf="@id/numTwo"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/numFour"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/box_number"
+            app:layout_constraintStart_toEndOf="@id/numThree"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/numFive"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/box_number"
+            app:layout_constraintStart_toEndOf="@id/numFour"
+            android:layout_marginStart="5dp"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+</merge>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/darkGray">
+
+    <!-- botão 1 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/oneKey"
+        app:layout_constraintBottom_toTopOf="@id/fourKey"
+        app:layout_constraintEnd_toStartOf="@id/twoKey"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="@dimen/m15"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="1"
+        />
+
+    <!-- botão 2 -->
+    <Button
+        android:id="@+id/twoKey"
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="@dimen/m15"
+        android:background="@color/black"
+        android:paddingStart="25dp"
+
+        android:text="2"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/fiveKey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- botão 3 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/threeKey"
+        app:layout_constraintBottom_toTopOf="@id/sixKey"
+        app:layout_constraintStart_toEndOf="@id/twoKey"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="@dimen/m15"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="3"
+        />
+
+    <!-- botão 4 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/fourKey"
+        app:layout_constraintBottom_toTopOf="@id/sevenKey"
+        app:layout_constraintEnd_toStartOf="@id/fiveKey"
+        android:layout_marginEnd="@dimen/m15"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="4"
+        />
+
+    <!-- botão 5 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/fiveKey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/eightKey"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="5"
+        />
+
+    <!-- botão 6 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/sixKey"
+        app:layout_constraintBottom_toTopOf="@id/nineKey"
+        app:layout_constraintStart_toEndOf="@id/fiveKey"
+        android:layout_marginStart="@dimen/m15"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="6"
+        />
+
+    <!-- botão 7 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/sevenKey"
+        app:layout_constraintBottom_toTopOf="@id/zeroKey"
+        app:layout_constraintEnd_toStartOf="@id/eightKey"
+        android:layout_marginEnd="@dimen/m15"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="7"
+        />
+
+    <!-- botão 8 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/eightKey"
+        app:layout_constraintBottom_toTopOf="@id/zeroKey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="8"
+        />
+
+    <!-- botão 9 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/nineKey"
+        app:layout_constraintBottom_toTopOf="@id/zeroKey"
+        app:layout_constraintStart_toEndOf="@id/eightKey"
+        android:layout_marginStart="@dimen/m15"
+        android:layout_marginBottom="@dimen/m15"
+        android:text="9"
+        />
+
+    <!-- botão 0 -->
+    <Button
+        android:layout_width="@dimen/regButton_Width"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:paddingStart="25dp"
+
+        android:id="@+id/zeroKey"
+        app:layout_constraintBottom_toTopOf="@id/corrigirKey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="40dp"
+        android:text="0"
+        />
+
+    <!-- botão corrigir -->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:background="@color/orange"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+
+        android:id="@+id/corrigirKey"
+        app:layout_constraintStart_toEndOf="@id/brancoKey"
+        app:layout_constraintEnd_toStartOf="@id/confirmaKey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        android:text="CORRIGIR"
+        />
+
+    <!-- botão confirma -->
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@color/green"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+        android:id="@+id/confirmaKey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="CONFIRMA"
+        />
+
+    <!-- botão branco -->
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+        android:id="@+id/brancoKey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="BRANCO"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VotingMachine</string>
+    <string name="cargo">PRESIDENTE</string>
+    <string name="seu_voto">SEU VOTO PARA</string>
+    <string name="settings">Configurações</string>
+    <string name="results">Resultados</string>
+    <string name="vote">VOTE</string>
+</resources>
