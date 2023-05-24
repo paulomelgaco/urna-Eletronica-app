@@ -20,7 +20,7 @@ This project uses some images from famous polititians because they are public pe
 It's not intended to disrespect or misuse any information.
 
 All the logos, images and names used on this project represents public services, well known polititians and famous political parties.
-If the owner of any material used on this app feels any harm with this, just get in touch, and we'll remeve it as soon as possible.
+If the owner of any material used on this app feels any harm with this, just get in touch, and we'll remove it as soon as possible.
 
 This project is not open-source, and everything belongs to Paulo Melgaço.
 If the project is found anywhere without this README file, it's illegal.
